@@ -6,7 +6,7 @@ Instead of using Github's GUI, I'm trying to get into the habit of using my term
 
 COMMITING CHANGES IN TERMINAL
 
-1. git clone ${copied url from github repo} => will automatically generate a folder for you to use if you want to make commits from your terminal
+1. git clone {copied url from github repo} => will automatically generate a folder for you to use if you want to make commits from your terminal
 2. move all files to the automatically generated folder (don't forget to cd to that directory before continuing^^)
 3. git status: self-explanatory ^^
 4. add files you want to commit
@@ -30,13 +30,13 @@ BRANCHES/MERGING
 - changes shouldn't be made directly to the main branch, instead create a new side branch
 - creating a new side branch:
 1. git branch: for listing all existing branches
-2. git branch ${side branch name} for creating a new branch
-3. git checkout 4{side branch name} to switch to the new branch
+2. git branch {side branch name} for creating a new branch
+3. git checkout {side branch name} to switch to the new branch
 4. use git push --set-upstream origin ${side branch name} if asked
-5. git add <file name>
+5. git add {file name}
 6. git commit, git push
 7. create pull request on github (it pops up as the commit has been made on side branch) that needs to be approved and merged (under Pull requests tab)
 8. side branch can be kept or deleted merging
 
 ***EXTRA NOTES***
-- use git branch -d <branch name> to delete the local branch on your PC
+- use git branch -d {branch name} to delete the local branch on your PC
