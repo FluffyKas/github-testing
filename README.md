@@ -31,9 +31,11 @@ BRANCHES/MERGING
 1. git branch: for listing all existing branches
 2. git branch ${side branch name} for creating a new branch
 3. git checkout 4{side branch name} to switch to the new branch
-4. git commit, then use git push --set-upstream origin ${side branch name} first if asked
-5. git push <file name>
-6.
+4. use git push --set-upstream origin ${side branch name} if asked
+5. git add <file name>
+6. git commit, git push
+7. pull request will appear on github that needs to be approved and merged (under Pull requests tab)
+8. side branch can be kept or deleted merging
 
 *** extra notes:
 - use got branch -d <branch name> to delete the local branch on your PC
