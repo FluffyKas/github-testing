@@ -21,3 +21,5 @@ STEPS
 EXTRA STUFF TO KNOW
 - with git clone command you can copy everything in the github repo to your computer (so it work the other way around too)
 - git commands will not work unless you're in a directory that has a .git in it (obviously)
+
+git pull: to copy changes to your computer that were uploaded to the repo (updates files on your computer)
