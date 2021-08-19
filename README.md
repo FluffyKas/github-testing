@@ -23,3 +23,19 @@ EXTRA STUFF TO KNOW
 - git commands will not work unless you're in a directory that has a .git in it (obviously)
 
 git pull: to copy changes to your computer that were uploaded to the repo (updates files on your computer)
+
+BRANCHES/MERGING
+
+- changes shouldn't be made directly to the main branch, instead create a new side branch
+- creating a new side branch:
+1. git branch: for listing all existing branches
+2. git branch ${side branch name} for creating a new branch
+3. git checkout 4{side branch name} to switch to the new branch
+4. use git push --set-upstream origin ${side branch name} if asked
+5. git add <file name>
+6. git commit, git push
+7. pull request will appear on github that needs to be approved and merged (under Pull requests tab)
+8. side branch can be kept or deleted merging
+
+*** extra notes:
+- use got branch -d <branch name> to delete the local branch on your PC
