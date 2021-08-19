@@ -40,3 +40,4 @@ BRANCHES/MERGING
 
 ***EXTRA NOTES***
 - use git branch -d {branch name} to delete the local branch on your PC
+- every now and then do git merge to merge master with your branch so you don't miss out on changes
